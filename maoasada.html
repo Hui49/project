@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="shortcut icon" href="">
+
+        <title>skater_data</title>
+
+        <link rel="stylesheet" type="text/css" href="myStyle2.css">
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+        <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+        <script src='c.js'></script>
+
+        <!-- Bootstrap core CSS -->
+        <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+        <!-- Custom styles for this template -->
+        <link href="styles/dashboard.css" rel="stylesheet">
+
+        <!-- fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<style>
+
+        select {
+  border: solid 2px #000;
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  background: url("http://ourjs.github.io/static/2015/arrow.png") no-repeat scroll right center transparent;
+  padding-right: 14px;
+}
+select::-ms-expand { display: none; }</style>
+    </head>
+
+    <body onload="init()">
+     
+                <div class="col-sm-9 col-md-8 main">
+                    <span id="skater titleBar">
+                        <span style="font-family:'Oswald'; font-size:60px; width:200">Mao Asada</span> 
+                    </span>
+                    <div style="display: table-cell; width: 100; padding-top: 20px; padding-right: 40px;">
+                        <label for="xdropdown">Choose One</label>
+                     
+
+                        <select id="xdropdown" onChange="update()">
+                            <option value="tes">TES</option>
+                        
+                        </select>
+                  
+                       
+                        
+                    </div>
+                
+                    <div class="vis-container">
+                        <div id="scatterPlotVis"></div>      
+                    </div>  
+
+                    <div class="vis-container">
+                        <div id="ChartVis"></div>      
+                    </div>
+                     <div id="playerStatsRight" class="col-xs-6 col-sm-6 placeholder"></div>
+                </div><!-- end of main div -->
+
+                <div class="information session">
+                    <span id="programtitleBar">
+                        <span style="font-family:'Oswald'; font-size:40px; width:200"></span> 
+                    </span>
+               
+                </div>
+                <div  class = "competition_container" style="font-family:'Oswald'; font-size:16px" style="width: 250px" 
+                    >
+                     
+                        
+                    
+                           <table style="width: 250px"   border="0">
+                           
+                           <tr >
+                               
+                               <button class="button button_season " value="2016-2017" >2016-2017</button>
+                           </tr>
+                           <tr width = "200px">
+                               <td>
+                               <button class="button button2" style="background-color:#884EA0" >hi</button> 
+                              <button class="button button4"  value="2016-2017 sa" >SA</button>
+                               </td>
+                               
+                               <td>
+                               <button class="button button2" style="background-color: #AF7AC5" > hi</button> 
+                                <button class="button button4" value="2016-2017 fra">FRA</button>       
+                               </td> 
+                           </tr>
+                                     </table>
+                           <table style="width: 250px"  border="0">
+                           
+                           <tr >
+                             
+                               <button class="button button_season " value="2015-2016" >2015-2016</button>
+                           </tr>
+                           <tr width = "200px">
+                               <td>
+                               <button class="button button2" style="background-color: #1A5276" >hi</button> 
+                              <button class="button button4"  value="2015-2016 coc" >COC</button>
+                               </td>
+                               
+                               <td>
+                               <button class="button button2" style="background-color: #1F618D" > hi</button> 
+                                <button class="button button4"  value="2015-2016 nhk">NHK</button>      
+                               </td> 
+                           </tr>
+                               <tr width = "200px">
+                               <td>
+                               <button class="button button2" style="background-color: #2471A3">hi</button> 
+                              <button class="button button4"  vvalue="2015-2016 gpf">GPF</button>
+                               </td>
+                               
+                               <td>
+                               <button class="button button2" style="background-color: #2980B9" > hi</button> 
+                                <button class="button button4" value="2015-2016 national">National</button>    
+                               </td> 
+                           </tr>
+                               <tr width = "200px">
+                               <td>
+                                
+                               <button class="button button2" style="background-color: #5499C7">hi</button> 
+                              <button class="button button4"  value="2015-2016 wc">Worlds</button>  
+                               </td>
+                               
+                               
+                           </tr>
+                                     </table>
+                    
+                            
+                           <table style="width: 250px"  border="0">
+                           
+                           <tr >
+                               
+                               <button class="button button_season " value="2014-2015" >2014-2015</button>
+                           </tr>
+                           <tr width = "200px">
+                               <td>
+                               <button class="button button2"  style="background-color: #117864">hi</button> 
+                              <button class="button button4"  value="2014-2015 coc" >COC</button>
+                               </td>
+                               
+                               <td>
+                               <button class="button button2" style="background-color: #138D75" > hi</button> 
+                                <button class="button button4"  value="2014-2015 nhk">NHK</button>      
+                               </td> 
+                           </tr>
+                               <tr width = "200px">
+                               <td>
+                               <button class="button button2" style="background-color: #45B39D" >hi</button> 
+                              <button class="button button4"  vvalue="2014-2015 gpf">GPF</button>
+                               </td>
+                               
+                               <td>
+                               <button class="button button2"  style="background-color: #73C6B6"> hi</button> 
+                                <button class="button button4" value="2014-2015 national">National</button>    
+                               </td> 
+                           </tr>
+                               <tr width = "200px">
+                               <td>
+                               <button class="button button2" style="background-color: #A2D9CE">hi</button> 
+                              <button class="button button4"  value="2014-2015 wc">Worlds</button>  
+                               </td>
+                               
+                               
+                           </tr>
+                                     </table>
+                   
+                           <table style="width: 250px"  border="0">
+                           
+                           <tr >
+                          
+                               <button class="button button_season " value="2015-2016" >2013-2014</button>
+                           </tr>
+                           <tr width = "200px">
+                               <td>
+                               <button class="button button2" style="background-color: #9A7D0A" >hi</button> 
+                              <button class="button button4"  value="2015-2016 coc" >COC</button>
+                               </td>
+                               
+                               <td>
+                               <button class="button button2" style="background-color: #B7950B" > hi</button> 
+                                <button class="button button4"  value="2015-2016 nhk">NHK</button>      
+                               </td> 
+                           </tr>
+                               <tr width = "200px">
+                               <td>
+                               <button class="button button2" style="background-color: #D4AC0D">hi</button> 
+                              <button class="button button4"  vvalue="2015-2016 gpf">GPF</button>
+                               </td>
+                               
+                               <td>
+                               <button class="button button2"  style="background-color: #F1C40F"> hi</button> 
+                                <button class="button button4" value="2015-2016 national">National</button>    
+                               </td> 
+                           </tr>
+                               <tr width = "200px">
+                               <td>
+                               <button class="button button2" style="background-color: #F9E79F">hi</button> 
+                              <button class="button button4"  value="2015-2016 wc">Worlds</button>  
+                               </td>
+                               
+                               
+                           </tr>
+                                     </table>
+                        
+                    
+                    
+                    
+                     </div>
+                
+                  
+         
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="shortcut icon" href="">
+
+        <title>competiton</title>
+
+        <link rel="stylesheet" type="text/css" href="myStyle.css">
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+        <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+        <script src='js/test.js'></script>
+
+        <!-- Bootstrap core CSS -->
+        <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+        <!-- Custom styles for this template -->
+        <link href="dashboard.css" rel="stylesheet">
+
+        <!-- fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+    </head>
+
+   <body onload="init()">
+        <div class="container-fluid">
+            <div class="picrow">
+                    <h1 id="selectedSkater">Select One Compeition</h1>
+                    <div id="competitionSection" class="row placeholders">
+                       <div class="season" data-name="2016-2017">
+                            <button class="button button_season" type="button" value="2016-2017" >2016-2017</button>
+                            <div class="Season Competition" >
+                            <a href="competitiondata.html">
+                                <button class="button butt_comp" type="button" value="2016-2017 sa" >SA</button></a>
+                            <button class="button butt_comp" type="button" value="2016-2017 sc">SC</button> 
+                            <button class="button butt_comp" type="button" value="2016-2017 fra">FRA</button> 
+                            <button class="button butt_comp" type="button" value="2016-2017 coc" >COC</button>
+                            <button class="button butt_comp" type="button" value="2016-2017 nhk">NHK</button>
+                            <button class="button butt_comp" type="button" value="2016-2017 gpf">GPF</button>
+                            <button class="button butt_comp" type="button" value="2016-2017 4cc">4CC</button>
+                            <button class="button butt_comp" type="button" value="2016-2017 wc">WC</button>
+                        </div>
+                        </div>
+                         <div class="season" data-name="2015-2016">
+                            <button class="button button_season" type="button" value="2015-2016" >2015-2016</button>
+                            <div class="Season_Competition " style="display: block ; width: 150;" >
+                              <button class="button butt_comp" type="button" value="2015-2016 sa" >SA</button>
+                            <button class="button butt_comp" type="button" value="2015-2016 sc">SC</button> 
+                            <button class="button butt_comp" type="button" value="2015-2016 fra">FRA</button> 
+                            <button class="button butt_comp" type="button" value="2015-2016 coc" >COC</button>
+                            <button class="button butt_comp" type="button" value="2015-2016 nhk">NHK</button>
+                            <button class="button butt_comp" type="button" value="2015-2016 gpf">GPF</button>
+                            <button class="button butt_comp" type="button" value="2015-2016 4cc">4CC</button>
+                            <button class="button butt_comp" type="button" value="2015-2016 wc">WC</button>  
+                        </div>
+                        </div>
+                         <div class="season" data-name="2013-2014">
+                            <button class="button button_season" type="button" value="2013-2014" >2013-2014</button>
+                            <div class="Season_Competition " style="display: block ; width: 150;" >
+                              <button class="button butt_comp" type="button" value="2015-2016 sa" >SA</button>
+                            <button class="button butt_comp" type="button" value="2015-2016 sc">SC</button> 
+                            <button class="button butt_comp" type="button" value="2015-2016 fra">FRA</button> 
+                            <button class="button butt_comp" type="button" value="2015-2016 coc" >COC</button>
+                            <button class="button butt_comp" type="button" value="2015-2016 nhk">NHK</button>
+                            <button class="button butt_comp" type="button" value="2015-2016 gpf">GPF</button>
+                            <button class="button butt_comp" type="button" value="2015-2016 4cc">4CC</button>
+                            <button class="button butt_comp" type="button" value="2015-2016 wc">WC</button>  
+                        </div> 
+                        </div>
+                        <div class="season" data-name="2012-2013">
+                            <button class="button button_season" type="button" value="2013-2014" >2012-2013</button>
+                            <div class="Season_Competition " style="display: block ; width: 150;" >
+                              <button class="button butt_comp" type="button" value="2015-2016 sa" >SA</button>
+                            <button class="button butt_comp" type="button" value="2015-2016 sc">SC</button> 
+                            <button class="button butt_comp" type="button" value="2015-2016 fra">FRA</button> 
+                            <button class="button butt_comp" type="button" value="2015-2016 coc" >COC</button>
+                            <button class="button butt_comp" type="button" value="2015-2016 nhk">NHK</button>
+                            <button class="button butt_comp" type="button" value="2015-2016 gpf">GPF</button>
+                            <button class="button butt_comp" type="button" value="2015-2016 4cc">4CC</button>
+                            <button class="button butt_comp" type="button" value="2015-2016 wc">WC</button>  
+                        </div> 
+                        </div>
+                        <div class="season" data-name="2011-2012">
+                            <button class="button button_season" type="button" value="2013-2014" >2011-2012</button>
+                           <div class="Season_Competition " style="display: block ; width: 150;" >
+                              <button class="button butt_comp" type="button" value="2015-2016 sa" >SA</button>
+                            <button class="button butt_comp" type="button" value="2015-2016 sc">SC</button> 
+                            <button class="button butt_comp" type="button" value="2015-2016 fra">FRA</button> 
+                            <button class="button butt_comp" type="button" value="2015-2016 coc" >COC</button>
+                            <button class="button butt_comp" type="button" value="2015-2016 nhk">NHK</button>
+                            <button class="button butt_comp" type="button" value="2015-2016 gpf">GPF</button>
+                            <button class="button butt_comp" type="button" value="2015-2016 4cc">4CC</button>
+                            <button class="button butt_comp" type="button" value="2015-2016 wc">WC</button>  
+                        </div>    
+                        </div>
+                         <div class="season" data-name="2010-2011">
+                            <button class="button button_season" type="button" value="2013-2014" >2010-2011</button>
+                           <div class="Season_Competition " style="display: block ; width: 150;" >
+                              <button class="button butt_comp" type="button" value="2015-2016 sa" >SA</button>
+                            <button class="button butt_comp" type="button" value="2015-2016 sc">SC</button> 
+                            <button class="button butt_comp" type="button" value="2015-2016 fra">FRA</button> 
+                            <button class="button butt_comp" type="button" value="2015-2016 coc" >COC</button>
+                            <button class="button butt_comp" type="button" value="2015-2016 nhk">NHK</button>
+                            <button class="button butt_comp" type="button" value="2015-2016 gpf">GPF</button>
+                            <button class="button butt_comp" type="button" value="2015-2016 4cc">4CC</button>
+                            <button class="button butt_comp" type="button" value="2015-2016 wc">WC</button>  
+                        </div>    
+                        </div>
+                         <div class="season" data-name="2009-2010">
+                            <button class="button button_season" type="button" value="2013-2014" >2009-2010</button>
+                           <div class="Season_Competition " style="display: block ; width: 150;" >
+                              <button class="button butt_comp" type="button" value="2015-2016 sa" >SA</button>
+                            <button class="button butt_comp" type="button" value="2015-2016 sc">SC</button> 
+                            <button class="button butt_comp" type="button" value="2015-2016 fra">FRA</button> 
+                            <button class="button butt_comp" type="button" value="2015-2016 coc" >COC</button>
+                            <button class="button butt_comp" type="button" value="2015-2016 nhk">NHK</button>
+                            <button class="button butt_comp" type="button" value="2015-2016 gpf">GPF</button>
+                            <button class="button butt_comp" type="button" value="2015-2016 4cc">4CC</button>
+                            <button class="button butt_comp" type="button" value="2015-2016 wc">WC</button>  
+                        </div>    
+                        </div>
+                        </div>
+                    
+                    
+                     
+                    </div><!--  end of row -->
+                    <div id="playerStatsSection" class="row placeholders">
+                        <!-- <h1>Player Stats</h1> -->
+                        <div id="playerStatsLeft" class="col-xs-6 col-sm-6 placeholder"></div>
+                        <div id="playerStatsRight" class="col-xs-6 col-sm-6 placeholder"></div>
+                    </div><!--  end of row -->
+                </div>
+                   
+   
+                
+      
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    </body>
+</html>

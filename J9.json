@@ -1,0 +1,526 @@
+
+
+[
+ {"id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "sp",
+     "name":"Shoma UNO",
+	"elements": "Skating Skill",
+    "score": 8.5
+  
+ },
+ {"id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "sp",
+     "name":"Shoma UNO",
+	"elements": "Transitions",
+    "score": 8.00
+ },
+    {
+        "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "sp",
+     "name":"Shoma UNO",
+	"elements": "Performance",
+    "score": 8.25
+ },
+      {
+       "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "sp",
+     "name":"Shoma UNO",
+	"elements": "Composition",
+    "score": 8.25
+ },
+     {    "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "sp",
+     "name":"Shoma UNO",
+	"elements": "Interpretation of the Music",
+    "score": 8.25
+ },
+  {"id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "sp",
+     "name":"Adam RIPPON",
+	"elements": "Skating Skill",
+    "score": 8.5
+  
+ },
+ {"id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "sp",
+     "name":"Adam RIPPON",
+	"elements": "Transitions",
+    "score": 7.75
+ },
+    {
+        "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "sp",
+     "name":"Adam RIPPON",
+	"elements": "Performance",
+    "score": 8.50
+ },
+      {
+       "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "sp",
+     "name":"Adam RIPPON",
+	"elements": "Composition",
+    "score": 8.25
+ },
+     {    "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "sp",
+     "name":"Adam RIPPON",
+	"elements": "Interpretation of the Music",
+    "score": 8.50
+ },  
+    {"id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "sp",
+     "name":"Jason BROWN",
+	"elements": "Skating Skill",
+    "score": 8.5
+  
+ },
+ {"id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "sp",
+     "name":"Jason BROWN",
+	"elements": "Transitions",
+    "score": 8.75
+ },
+    {
+        "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "sp",
+     "name":"Jason BROWN",
+	"elements": "Performance",
+    "score": 8.75
+ },
+      {
+       "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "sp",
+     "name":"Jason BROWN",
+	"elements": "Composition",
+    "score": 8.75
+ },
+     {    "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "sp",
+     "name":"Jason BROWN",
+	"elements": "Interpretation of the Music",
+    "score": 8.75
+ },
+     {"id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "sp",
+     "name":"Nam NGUYEN",
+	"elements": "Skating Skill",
+    "score": 7.25
+  
+ },
+ {"id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "sp",
+     "name":"Nam NGUYEN",
+	"elements": "Transitions",
+    "score": 7.75
+ },
+    {
+        "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "sp",
+     "name":"Nam NGUYEN",
+	"elements": "Performance",
+    "score": 7.75
+ },
+      {
+       "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "sp",
+     "name":"Nam NGUYEN",
+	"elements": "Composition",
+    "score": 7.50
+ },
+     {    "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "sp",
+     "name":"Nam NGUYEN",
+	"elements": "Interpretation of the Music",
+    "score": 7.75
+ },
+     {"id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "sp",
+     "name":"Sergei VORONOV",
+	"elements": "Skating Skill",
+    "score": 7.50
+  
+ },
+ {"id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "sp",
+     "name":"Sergei VORONOV",
+	"elements": "Transitions",
+    "score": 6.75
+ },
+    {
+        "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "sp",
+     "name":"Sergei VORONOV",
+	"elements": "Performance",
+    "score": 7.00
+ },
+      {
+       "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "sp",
+     "name":"Sergei VORONOV",
+	"elements": "Composition",
+    "score": 6.75
+ },
+     {    "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "sp",
+     "name":"Sergei VORONOV",
+	"elements": "Interpretation of the Music",
+    "score": 6.75
+ }, 
+    {"id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "sp",
+     "name":"Timothy DOLENSKY",
+	"elements": "Skating Skill",
+    "score": 7.50
+  
+ },
+ {"id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "sp",
+     "name":"Timothy DOLENSKY",
+	"elements": "Transitions",
+    "score": 7.25
+ },
+    {
+        "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "sp",
+     "name":"Timothy DOLENSKY",
+	"elements": "Performance",
+    "score": 7.75
+ },
+      {
+       "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "sp",
+     "name":"Timothy DOLENSKY",
+	"elements": "Composition",
+    "score": 7.75
+ },
+     {    "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "sp",
+     "name":"Timothy DOLENSKY",
+	"elements": "Interpretation of the Music",
+    "score":7.50
+ },
+    {"id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "lp",
+     "name":"Shoma UNO",
+	"elements": "Skating Skill",
+    "score": 8.75
+  
+ },
+ {"id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "lp",
+     "name":"Shoma UNO",
+	"elements": "Transitions",
+    "score": 8.75
+ },
+    {
+        "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "lp",
+     "name":"Shoma UNO",
+	"elements": "Performance",
+    "score": 8.75
+ },
+      {
+       "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "lp",
+     "name":"Shoma UNO",
+	"elements": "Composition",
+    "score": 8.50
+ },
+     {    "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "lp",
+     "name":"Shoma UNO",
+	"elements": "Interpretation of the Music",
+    "score": 8.75
+ },
+  {"id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "lp",
+     "name":"Adam RIPPON",
+	"elements": "Skating Skill",
+    "score": 8.5
+  
+ },
+ {"id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "lp",
+     "name":"Adam RIPPON",
+	"elements": "Transitions",
+    "score": 8.00
+ },
+    {
+        "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "lp",
+     "name":"Adam RIPPON",
+	"elements": "Performance",
+    "score": 8.25
+ },
+      {
+       "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "lp",
+     "name":"Adam RIPPON",
+	"elements": "Composition",
+    "score": 8.25
+ },
+     {    "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "lp",
+     "name":"Adam RIPPON",
+	"elements": "Interpretation of the Music",
+    "score": 8.50
+ },  
+    {"id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "lp",
+     "name":"Jason BROWN",
+	"elements": "Skating Skill",
+    "score": 8.5
+  
+ },
+ {"id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "lp",
+     "name":"Jason BROWN",
+	"elements": "Transitions",
+    "score": 8.50
+ },
+    {
+        "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "lp",
+     "name":"Jason BROWN",
+	"elements": "Performance",
+    "score": 8.75
+ },
+      {
+       "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "lp",
+     "name":"Jason BROWN",
+	"elements": "Composition",
+    "score": 8.50
+ },
+     {    "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "lp",
+     "name":"Jason BROWN",
+	"elements": "Interpretation of the Music",
+    "score": 8.50
+ },
+     {"id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "lp",
+     "name":"Nam NGUYEN",
+	"elements": "Skating Skill",
+    "score": 7.50
+  
+ },
+ {"id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "lp",
+     "name":"Nam NGUYEN",
+	"elements": "Transitions",
+    "score": 7.75
+ },
+    {
+        "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "lp",
+     "name":"Nam NGUYEN",
+	"elements": "Performance",
+    "score": 8.00
+ },
+      {
+       "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "lp",
+     "name":"Nam NGUYEN",
+	"elements": "Composition",
+    "score": 7.75
+ },
+     {    "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "lp",
+     "name":"Nam NGUYEN",
+	"elements": "Interpretation of the Music",
+    "score": 8.00
+ },
+     {"id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "lp",
+     "name":"Sergei VORONOV",
+	"elements": "Skating Skill",
+    "score": 7.75
+  
+ },
+ {"id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "lp",
+     "name":"Sergei VORONOV",
+	"elements": "Transitions",
+    "score": 7.25
+ },
+    {
+        "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "lp",
+     "name":"Sergei VORONOV",
+	"elements": "Performance",
+    "score": 7.50
+ },
+      {
+       "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "lp",
+     "name":"Sergei VORONOV",
+	"elements": "Composition",
+    "score": 7.50
+ },
+     {    "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "lp",
+     "name":"Sergei VORONOV",
+	"elements": "Interpretation of the Music",
+    "score": 7.50
+ }, 
+    {"id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "lp",
+     "name":"Timothy DOLENSKY",
+	"elements": "Skating Skill",
+    "score": 7.750
+  
+ },
+ {"id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "lp",
+     "name":"Timothy DOLENSKY",
+	"elements": "Transitions",
+    "score": 7.00
+ },
+    {
+        "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "lp",
+     "name":"Timothy DOLENSKY",
+	"elements": "Performance",
+    "score": 7.25
+ },
+      {
+       "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "lp",
+     "name":"Timothy DOLENSKY",
+	"elements": "Composition",
+    "score": 7.25
+ },
+     {    "id": 1,
+    "season": "2016-2017",
+    "competition": "sa",
+    "program": "lp",
+     "name":"Timothy DOLENSKY",
+	"elements": "Interpretation of the Music",
+    "score":7.00
+ }
+    
+
+
+
+    
+    
+]

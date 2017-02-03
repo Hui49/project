@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="shortcut icon" href="">
+
+        <title>Skater</title>
+
+        <link rel="stylesheet" type="text/css" href="myStyle.css">
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+        <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+        <script src='js/test.js'></script>
+
+        <!-- Bootstrap core CSS -->
+        <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+        <!-- Custom styles for this template -->
+        <link href="dashboard.css" rel="stylesheet">
+
+        <!-- fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+    </head>
+
+   <body onload="init()">
+        <div class="container-fluid">
+            <div class="picrow">
+                    <h1 id="selectedSkater">Skater</h1>
+                    <div id="playerPicSection" class="row placeholders">
+                        <div class="col-xs-6 col-sm-2 placeholder "  data-name="Mao Asada">
+                            <a href="maoasada.html">
+                            <img src="images/maoasada.jpg" height="150" width="150"   class="img-thumbnail" alt="Generic placeholder thumbnail">
+                            </a>
+                            <h4 class="skater-name">Mao Asada</h4>
+                        </div>
+                          <div class="col-xs-6 col-sm-2 placeholder "   data-name="Dwyane Wade">
+                            <a href="http://www.w3schools.com">
+                            <img src="images/satoko.png"  height="150" width="150"  class="img-thumbnail" alt="Generic placeholder thumbnail">
+                            </a>
+                            <h4 class="skater-name">Satoko Miyahara</h4>
+                        </div>
+                         <div class="col-xs-6 col-sm-2 placeholder "   data-name="Dwyane Wade">
+                            <a href="http://www.w3schools.com">
+                            <img src="images/graciegold.png"  height="150" width="150"  class="img-thumbnail" alt="Generic placeholder thumbnail">
+                            </a>
+                            <h4 class="skater-name">Gracie Gold</h4>
+                        </div>
+                          <div class="col-xs-6 col-sm-2 placeholder "   data-name="Dwyane Wade">
+                            <a href="http://www.w3schools.com">
+                            <img src="images/ashleywagner.jpg"  height="150" width="150"  class="img-thumbnail" alt="Generic placeholder thumbnail">
+                            </a>
+                            <h4 class="skater-name">Ashley Wagner</h4>
+                        </div>
+                        <div class="col-xs-6 col-sm-2 placeholder "   data-name="Dwyane Wade">
+                            <a href="http://www.w3schools.com">
+                            <img src="images/Zijunli.jpg"  height="150" width="150"  class="img-thumbnail" alt="Generic placeholder thumbnail">
+                            </a>
+                            <h4 class="skater-name">Zijun Li</h4>
+                        </div>
+                        <div class="col-xs-6 col-sm-2 placeholder "   data-name="Dwyane Wade">
+                            <a href="http://www.w3schools.com">
+                            <img src="images/et.jpg"  height="150" width="150"  class="img-thumbnail" alt="Generic placeholder thumbnail">
+                            </a>
+                            <h4 class="skater-name">Elizaveta Tuktamysheva</h4>
+                        </div>
+                           <div class="col-xs-6 col-sm-2 placeholder "   data-name="Dwyane Wade">
+                            <a href="http://www.w3schools.com">
+                            <img src="images/Evgenia-Medvedeva.jpg"  height="150" width="150"  class="img-thumbnail" alt="Generic placeholder thumbnail">
+                            </a>
+                            <h4 class="skater-name">Evgenia Medvedeva</h4>
+                        </div>
+                        <div class="col-xs-6 col-sm-2 placeholder "   data-name="Dwyane Wade">
+                            <a href="http://www.w3schools.com">
+                            <img src="images/radinova.jpg"  height="150" width="150"  class="img-thumbnail" alt="Generic placeholder thumbnail">
+                            </a>
+                            <h4 class="skater-name">Edilina Radinova</h4>
+                        </div>
+                        <div class="col-xs-6 col-sm-2 placeholder "   data-name="Dwyane Wade">
+                            <a href="http://www.w3schools.com">
+                            <img src="images/yulia.jpg"  height="150" width="150"  class="img-thumbnail" alt="Generic placeholder thumbnail">
+                            </a>
+                            <h4 class="skater-name">Yulia Linpstik</h4>
+                        </div>
+                        <div class="col-xs-6 col-sm-2 placeholder "   data-name="Dwyane Wade">
+                            <a href="http://www.w3schools.com">
+                            <img src="images/Adelina%20Sotnikova.jpg"  height="150" width="150"  class="img-thumbnail" alt="Generic placeholder thumbnail">
+                            </a>
+                            <h4 class="skater-name">Adelina Sotnikova</h4>
+                        </div>
+                        <div class="col-xs-6 col-sm-2 placeholder "   data-name="Dwyane Wade">
+                            <a href="http://www.w3schools.com">
+                            <img src="images/marin.jpg"  height="150" width="150"  class="img-thumbnail" alt="Generic placeholder thumbnail">
+                            </a>
+                            <h4 class="skater-name">Marin</h4>
+                        </div>
+                        <div class="col-xs-6 col-sm-2 placeholder "   data-name="Dwyane Wade">
+                            <a href="http://www.w3schools.com">
+                            <img src="images/Kanako-Murakami.jpg"  height="150" width="150"  class="img-thumbnail" alt="Generic placeholder thumbnail">
+                            </a>
+                            <h4 class="skater-name">Kanako Murakami</h4>
+                        </div>
+                    </div><!--  end of row -->
+                    <div id="playerStatsSection" class="row placeholders">
+                        <!-- <h1>Player Stats</h1> -->
+                        <div id="playerStatsLeft" class="col-xs-6 col-sm-6 placeholder"></div>
+                        <div id="playerStatsRight" class="col-xs-6 col-sm-6 placeholder"></div>
+                    </div><!--  end of row -->
+                
+            </div><!-- end of row div -->
+        </div><!-- end of container-fluid div -->
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    </body>
+</html>

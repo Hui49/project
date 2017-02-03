@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="shortcut icon" href="">
+
+        <title>skater_data</title>
+
+        <link rel="stylesheet" type="text/css" href="myStyle.css">
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+        <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+        <script src='c2.js'></script>
+
+        <!-- Bootstrap core CSS -->
+        <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+        <!-- Custom styles for this template -->
+        <link href="styles/dashboard.css" rel="stylesheet">
+
+        <!-- fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<style>
+
+        select {
+  border: solid 2px #000;
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  background: url("http://ourjs.github.io/static/2015/arrow.png") no-repeat scroll right center transparent;
+  padding-right: 14px;
+}
+select::-ms-expand { display: none; }</style>
+    </head>
+
+    <body onload="init()">
+     
+                <div class="col-sm-9 col-md-8 main">
+                    <span id="skater titleBar">
+                        <span style="font-family:'Oswald'; font-size:40px; width:200">2016-2017 Skate America</span> 
+                    </span>
+                    <div style="display: table-cell; width: 100; padding-top: 20px; padding-right: 40px;">
+                        <label for="xdropdown">program</label>
+                           <select id="xdropdown" onChange="update()">
+                            <option value="tes">TES</option>
+                     
+                        </select>
+                        
+                    </div>
+                
+                    <div class="vis-container">
+                        <div id="scatterPlotVis"></div>      
+                    </div>  
+
+                    <div class="vis-container">
+                        <div id="ChartVis"></div>  
+                    </div>  
+                    <div id="JudgePanel"></div> 
+                </div><!-- end of main div -->
+
+                <div class="information session">
+                   
+                </div>
+                 <div class="skater_sidebar" style="font-family:'Oswald'; font-size:16px" >
+                    <div id="playerSeasonSection" class="row placeholders">
+                        <div class="season" data-name="2016-2017">
+                            
+                            <div class="Season Competition" data-name="coc" >
+                            <button class="button button_season" type="button" value="women" id="women_butt">women</button>
+                            <button class="button button_season" type="button" value="men" id="men_butt">men</button>   
+                            
+                        </div>
+                            <div class="skater+label_panel">
+                            <div class="skater_label_panel"  >
+                           
+                                </div>
+                            <div class="skater_Panel" >
+                            </div>
+                            </div>
+                            
+                        </div>
+                        </div>
+                        
+                    
+                    
+                     
+                    </div><!--  end of row -->
+                    <div id="playerStatsSection" class="row placeholders">
+                        <!-- <h1>Player Stats</h1> -->
+                        <div id="playerStatsLeft" class="col-xs-6 col-sm-6 placeholder"></div>
+                        <div id="playerStatsRight" class="col-xs-6 col-sm-6 placeholder"></div>
+                    </div><!--  end of row -->
+                </div> <!-- end of sider bar div -->
+          
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    </body>
+</html>
